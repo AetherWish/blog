@@ -371,8 +371,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "calendar", name: "月历", link: "https://cyrene.icu/", icon: "iconfont icon-note" }
-    - { key: "philia093", name: "昔涟", link: "https://cyrene.icu/philia093/", icon: "iconfont icon-brush" }
+    - { key: "philia093", name: "昔涟", link: "https://cyrene.icu/", icon: "iconfont icon-brush" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
@@ -983,7 +982,7 @@ about:
   banner_mask_alpha: 0.3
   avatar: "/img/avatar_a.png"
   name: "AetherWish"
-  intro: "AKA 空愿||均分菌 / 高三物化生选手"
+  intro: "AKA 空愿||均分菌 / 大一新生"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
