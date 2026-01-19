@@ -121,7 +121,7 @@ fun_features:
   progressbar:
     enable: true
     height_px: 3
-    color: "#29d"
+    color: "#323ABF"
     # See: https://github.com/rstacruz/nprogress
     options: { showSpinner: false, trickleSpeed: 100 }
 
@@ -140,79 +140,79 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#f9f0ff"
+  body_bg_color: "#f5f6ff"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  body_bg_color_dark: "#1a1029"
+  body_bg_color_dark: "#0f1123"
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#8a2be2"
-  navbar_bg_color_dark: "#6a1bb5"
+  navbar_bg_color: "#323ABF"
+  navbar_bg_color_dark: "#252ca5"
 
   # 顶部菜单字体色
   # Color of navigation bar text
   navbar_text_color: "#fff"
-  navbar_text_color_dark: "#e6d4ff"
+  navbar_text_color_dark: "#e6e9ff"
 
   # 副标题字体色
   # Color of subtitle text
   subtitle_color: "#fff"
-  subtitle_color_dark: "#e6d4ff"
+  subtitle_color_dark: "#e6e9ff"
 
   # 全局字体色
   # Color of global text
-  text_color: "#4a2c6d"
-  text_color_dark: "#d8c2ff"
+  text_color: "#3a3d6b"
+  text_color_dark: "#cbd1ff"
 
   # 全局次级字体色（摘要、简介等位置）
   # Color of global secondary text (excerpt, introduction, etc.)
-  sec_text_color: "#7b5aa6"
-  sec_text_color_dark: "#b399d4"
+  sec_text_color: "#5b619d"
+  sec_text_color_dark: "#a3aff5"
 
   # 主面板背景色
   # Color of main board
   board_color: "#fff"
-  board_color_dark: "#2d1b42"
+  board_color_dark: "#1a1d35"
 
   # 文章正文字体色
   # Color of post text
-  post_text_color: "#4a2c6d"
-  post_text_color_dark: "#d8c2ff"
+  post_text_color: "#3a3d6b"
+  post_text_color_dark: "#cbd1ff"
 
   # 文章正文字体色（h1 h2 h3...）
   # Color of Article heading (h1 h2 h3...)
-  post_heading_color: "#3a1f5c"
-  post_heading_color_dark: "#e6d4ff"
+  post_heading_color: "#2d328e"
+  post_heading_color_dark: "#e6e9ff"
 
   # 文章超链接字体色
   # Color of post link
-  post_link_color: "#9c27b0"
-  post_link_color_dark: "#d500f9"
+  post_link_color: "#323ABF"
+  post_link_color_dark: "#6a71e6"
 
   # 超链接悬浮时字体色
   # Color of link when hovering
-  link_hover_color: "#e91e63"
-  link_hover_color_dark: "#ff4081"
+  link_hover_color: "#1a2391"
+  link_hover_color_dark: "#a3aff5"
 
   # 超链接悬浮背景色
   # Color of link background when hovering
-  link_hover_bg_color: "#f3e5f5"
-  link_hover_bg_color_dark: "#4a1b5c"
+  link_hover_bg_color: "#eef0ff"
+  link_hover_bg_color_dark: "#252ca5"
 
   # 分隔线和表格边线的颜色
   # Color of horizontal rule and table border
-  line_color: "#e1bee7"
-  line_color_dark: "#5d3a7a"
+  line_color: "#d0d3ff"
+  line_color_dark: "#3d45a8"
 
   # 滚动条颜色
   # Color of scrollbar
-  scrollbar_color: "#ba68c8"
-  scrollbar_color_dark: "#8e24aa"
+  scrollbar_color: "#7a81d6"
+  scrollbar_color_dark: "#5058c0"
   # 滚动条悬浮颜色
   # Color of scrollbar when hovering
-  scrollbar_hover_color: "#ab47bc"
-  scrollbar_hover_color_dark: "#ad5bbf"
+  scrollbar_hover_color: "#5b63c0"
+  scrollbar_hover_color_dark: "#7a81d6"
 
   # 按钮背景色
   # Color of button
@@ -220,8 +220,8 @@ color:
   button_bg_color_dark: "transparent"
   # 按钮悬浮背景色
   # Color of button when hovering
-  button_hover_bg_color: "#f3e5f5"
-  button_hover_bg_color_dark: "#6a1b9a"
+  button_hover_bg_color: "#eef0ff"
+  button_hover_bg_color_dark: "#252ca5"
 
 # 主题字体配置
 # Font
@@ -237,7 +237,7 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css: /css/icons.css
+custom_css: [/css/icons.css]
 
 # 网页访问统计
 # Analysis of website visitors
@@ -447,7 +447,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: >-
-    <span>2025 © AetherWish</span><span> | Powered by </span>
+    <span>2026 © AetherWish</span><span> | Powered by </span>
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
 
@@ -503,7 +503,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "「汝将收梢于花开时，一如终结诞下起始」"
+    text: "「直到有人点燃了自我，宇宙才拥有最初的光。」"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -967,8 +967,8 @@ tag:
     min_font: 15
     max_font: 30
     unit: px
-    start_color: "#e1bee7"
-    end_color: "#9c27b0"
+    start_color: "#a3aff5"
+    end_color: "#323ABF"
 
 
 #---------------------------
